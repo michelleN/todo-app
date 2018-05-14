@@ -8,3 +8,4 @@
     auto-connect = false
     dockerfile = ""
     chart = ""
+    override-ports = ["3000:3000"]
