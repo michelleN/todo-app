@@ -19,7 +19,7 @@ todo-app: Releasing Application: SUCCESS ⚓  (2.3750s)
 Inspect the logs with `draft logs 01CDFSD7ZYPENG32W7Y0198NYR`
 ```
 
-Then, type: `$ draft connect and copy/paste the localhost url in your browser` to see your rails application running
+Then, type: `$ draft connect` and copy/paste the localhost url in your browser` to see your rails application running
 
 ```console
 $ draft connect
