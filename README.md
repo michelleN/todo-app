@@ -1,6 +1,6 @@
-# Example TODO list app
+# Example Ruby on Rails TODO list app with Draft
 
-This example Ruby on Rails todo list app is here to serve as an example of how you can use [Draft](https://github.com/Azure/draft) to develop a Ruby on Rails app against a Kubernetes cluster with Draft.
+This Ruby on Rails todo list app is here to serve as an example of how you can use [Draft](https://github.com/Azure/draft) to develop a Ruby on Rails app against a Kubernetes cluster with Draft.
 
 * Ruby version: 2.5.0
 * Rails version: 5.1.6
@@ -8,7 +8,7 @@ This example Ruby on Rails todo list app is here to serve as an example of how y
 To get started:
 1. Clone this repository
 2. Install Draft via the instructions on the [quickstart guide](https://github.com/Azure/draft/blob/master/docs/quickstart.md)
-2. In the directory of the application, run `$ draft init && draft up`
+2. Assuming you've already run `draft init` and either configured a image registry to work with Draft OR run `$ eval $(minikube docker-env)`, run `draft init` in the directory of the application:
 ```console
 $ draft up
 WARNING: no registry has been set, therefore Draft will not push to a container registry. This can be fixed by running `draft config set registry docker.io/myusername`
